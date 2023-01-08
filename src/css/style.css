@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(39, 39, 39);
+    color: white;
+}
+
+#demo{
+    width: max-content;
+    background: lightyellow;
+    border: 1px solid black;
+    height: 300px;
+    padding: 6px;
+    color: black;
+}
+
+.bg{
+    color: red;
+    transition: .5s ease;
+}
